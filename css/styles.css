@@ -1,6 +1,6 @@
 .row-header {
-	margin: 0px auto;
-	padding: 0px auto;
+	margin: 0 auto;
+	padding: 0 auto;
 }
 
 .row-content {
@@ -36,4 +36,9 @@ body{
 
 .navbar-dark {
      background-color: #512DA8;
+}
+
+.reservation-form-header{
+	color: white;
+	width: 100%;
 }
