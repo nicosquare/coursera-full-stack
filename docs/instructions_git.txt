@@ -1,0 +1,7 @@
+# Git Commands
+
+# Review status: git status
+# Add changes: git add .
+# Commit the erros: git commit
+# Pull changes: git pull | git pull origin master
+# Send chagnes; git push | git push origin master

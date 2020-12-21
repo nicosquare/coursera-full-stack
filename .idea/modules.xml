@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/coursera-full-stack.iml" filepath="$PROJECT_DIR$/.idea/coursera-full-stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/conFusion.iml" filepath="$PROJECT_DIR$/.idea/conFusion.iml" />
     </modules>
   </component>
 </project>
