@@ -19,4 +19,26 @@ $(document).ready(() => {
 
     });
 
+    // Handle login modal
+
+    const loginButton = $('#login-button');
+    const loginModal = $('#login-modal');
+
+    loginButton.click(() => {
+
+        loginModal.modal('show');
+
+    })
+
+    // Handle reserve modal
+
+    const reserveButton = $('#reserve-button');
+    const reserveModal = $('#reservation-modal');
+
+    reserveButton.click(() => {
+
+        reserveModal.modal('show');
+
+    })
+
 });

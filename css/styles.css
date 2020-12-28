@@ -65,4 +65,24 @@ body {
   z-index: 1;
 }
 
+.navbar img {
+  height: 30px;
+}
+
+#login-button {
+  cursor: pointer;
+}
+
+.modal-header {
+  background: #512DA8;
+  color: floralwhite;
+}
+.modal-header .close {
+  color: floralwhite;
+}
+
+.modal-body {
+  background: #D1C4E9;
+}
+
 /*# sourceMappingURL=styles.css.map */

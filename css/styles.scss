@@ -74,3 +74,25 @@ body{
   bottom: 0;
   z-index: 1;
 }
+
+.navbar img {
+  height: 30px;
+}
+
+#login-button {
+  cursor: pointer;
+}
+
+.modal-header {
+  background: $background-dark;
+  color: floralwhite;
+
+  .close {
+    color: floralwhite;
+  }
+
+}
+
+.modal-body {
+  background: $background-pale;
+}
