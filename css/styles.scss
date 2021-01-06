@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2');
+
 $lt-gray: #ddd;
-$background-dark: #512DA8;
-$background-light: #9575CD;
-$background-pale: #D1C4E9;
+$background-dark: #001011; //
+$background-light: #093A3E;
+$background-pale: #97C8EB;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -9,6 +11,10 @@ $carousel-item-height: 300px;
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
   margin:0 auto;
   padding: $pad-up-dn $pad-left-right;
+}
+
+* {
+  font-family: 'Exo 2', sans-serif;
 }
 
 .row-header{
@@ -27,9 +33,10 @@ $carousel-item-height: 300px;
 }
 
 .jumbotron {
-  @include zero-margin(70px,30px);
-  background: $background-light ;
+  @include zero-margin(70px,0px);
+  background: url("../img/home.jpg");
   color:floralwhite;
+  min-height: 500px;
 }
 
 address{
@@ -39,6 +46,7 @@ address{
 }
 
 body{
+  background-color: $background-dark;
   padding:50px 0 0 0;
   z-index:0;
 }
@@ -55,7 +63,7 @@ body{
 }
 
 .carousel {
-  background:$background-dark;
+  background:$background-light;
 
   .carousel-item {
     height: $carousel-item-height;
@@ -95,4 +103,18 @@ body{
 
 .modal-body {
   background: $background-pale;
+}
+
+.container {
+  max-width: 90%;
+}
+
+.btn-register {
+  margin-top: 70px;
+  font-weight: bolder;
+
+}
+
+.home-text h1 {
+  font-weight: bold;
 }
