@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2");
 * {
   font-family: "Exo 2", sans-serif;
+  color: floralwhite;
 }
 
 .row-header {
@@ -53,16 +54,25 @@ body {
 }
 
 .carousel {
-  background: #093A3E;
+  background: #001011;
 }
 .carousel .carousel-item {
   height: 300px;
+  min-height: 500px;
 }
 .carousel .carousel-item img {
   position: absolute;
+  opacity: 0.4;
   top: 0;
   left: 0;
-  min-height: 300px;
+  transform: translateY(-25%);
+}
+.carousel .carousel-inner {
+  min-height: 500px;
+}
+.carousel .carousel-caption :hover {
+  color: #97C8EB;
+  transform: scale3d(1.1, 1.1, 1.1);
 }
 
 #carouselButton {
@@ -99,6 +109,14 @@ body {
 .btn-register {
   margin-top: 70px;
   font-weight: bolder;
+  opacity: 79%;
+}
+
+.btn-login {
+  margin-top: 70px;
+  font-weight: bolder;
+  color: #97C8EB;
+  border: #97C8EB 1px solid;
 }
 
 .home-text h1 {

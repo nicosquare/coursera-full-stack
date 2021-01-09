@@ -15,6 +15,7 @@ $carousel-item-height: 300px;
 
 * {
   font-family: 'Exo 2', sans-serif;
+  color: floralwhite;
 }
 
 .row-header{
@@ -63,16 +64,27 @@ body{
 }
 
 .carousel {
-  background:$background-light;
+  background:$background-dark;
 
   .carousel-item {
     height: $carousel-item-height;
+    min-height: 500px;
     img {
       position: absolute;
+      opacity: 0.4;
       top: 0;
       left: 0;
-      min-height: 300px;
+      transform: translateY(-25%);
     }
+  }
+
+  .carousel-inner {
+    min-height: 500px;
+  }
+
+  .carousel-caption :hover {
+    color: $background-pale;
+    transform: scale3d(1.1,1.1,1.1);
   }
 }
 
@@ -112,7 +124,14 @@ body{
 .btn-register {
   margin-top: 70px;
   font-weight: bolder;
+  opacity: 79%;
+}
 
+.btn-login {
+  margin-top: 70px;
+  font-weight: bolder;
+  color: $background-pale;
+  border: $background-pale 1px solid;
 }
 
 .home-text h1 {
